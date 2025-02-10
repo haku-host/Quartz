@@ -6,65 +6,65 @@
       <description>Последние 10 заметок on 🚀 Haku Host Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Немного о тарифах</title>
-    <link>https://wiki.haku.host/service/plans</link>
-    <guid>https://wiki.haku.host/service/plans</guid>
-    <description>Ценаобразование Цены могут быть несколько выше и немного ниже, в зависимости от конкретной игры или сервиса Xeon 200 рублей/месяц за блок 1 vcpu / 4 гб ОЗУ / 32 ГБ ПЗУ / 1 БД MySQL Количество ...</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
-  </item><item>
-    <title>Партнёрская программа</title>
-    <link>https://wiki.haku.host/service/ref</link>
-    <guid>https://wiki.haku.host/service/ref</guid>
-    <description>Приводи друзей и зарабатывай!.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
-  </item><item>
-    <title>Список сервисов</title>
-    <link>https://wiki.haku.host/service/servicelist</link>
-    <guid>https://wiki.haku.host/service/servicelist</guid>
-    <description>Перечень сервисов, доступных к установке в тарифах "Сервисы" и замечания к их установке.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
-  </item><item>
-    <title>Характеристики</title>
-    <link>https://wiki.haku.host/service/specs</link>
-    <guid>https://wiki.haku.host/service/specs</guid>
-    <description>Локации, машины.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
-  </item><item>
     <title>index</title>
     <link>https://wiki.haku.host/pictures/</link>
     <guid>https://wiki.haku.host/pictures/</guid>
     <description>Это папка с картинками, тут особо не на что смотреть :).</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
   </item><item>
     <title>Список игр</title>
     <link>https://wiki.haku.host/service/gamelist</link>
     <guid>https://wiki.haku.host/service/gamelist</guid>
     <description>Перечень игр, доступных к установке в тарифах "Другие игры" и замечания к их установке.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
   </item><item>
     <title>Об услугах</title>
     <link>https://wiki.haku.host/service/</link>
     <guid>https://wiki.haku.host/service/</guid>
     <description>Статьи о предоставляемых услугах.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
   </item><item>
     <title>Платежи</title>
     <link>https://wiki.haku.host/service/payment</link>
     <guid>https://wiki.haku.host/service/payment</guid>
     <description>Описания комиссии.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
+  </item><item>
+    <title>Немного о тарифах</title>
+    <link>https://wiki.haku.host/service/plans</link>
+    <guid>https://wiki.haku.host/service/plans</guid>
+    <description>Ценаобразование Цены могут быть несколько выше и немного ниже, в зависимости от конкретной игры или сервиса Xeon 200 рублей/месяц за блок 1 vcpu / 4 гб ОЗУ / 32 ГБ ПЗУ / 1 БД MySQL Количество ...</description>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
+  </item><item>
+    <title>Партнёрская программа</title>
+    <link>https://wiki.haku.host/service/ref</link>
+    <guid>https://wiki.haku.host/service/ref</guid>
+    <description>Приводи друзей и зарабатывай!.</description>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
+  </item><item>
+    <title>Список сервисов</title>
+    <link>https://wiki.haku.host/service/servicelist</link>
+    <guid>https://wiki.haku.host/service/servicelist</guid>
+    <description>Перечень сервисов, доступных к установке в тарифах "Сервисы" и замечания к их установке.</description>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
+  </item><item>
+    <title>Характеристики</title>
+    <link>https://wiki.haku.host/service/specs</link>
+    <guid>https://wiki.haku.host/service/specs</guid>
+    <description>Локации, машины.</description>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
   </item><item>
     <title>Подводные камни</title>
     <link>https://wiki.haku.host/about/crap</link>
     <guid>https://wiki.haku.host/about/crap</guid>
     <description>Чёткое описание всех неявных ограничений нашего хостинга.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
   </item><item>
     <title>О нас</title>
     <link>https://wiki.haku.host/about/hosting</link>
     <guid>https://wiki.haku.host/about/hosting</guid>
     <description>История, услуги и тд.</description>
-    <pubDate>Wed, 25 Dec 2024 22:43:06 GMT</pubDate>
+    <pubDate>Mon, 10 Feb 2025 07:35:24 GMT</pubDate>
   </item>
     </channel>
   </rss>
