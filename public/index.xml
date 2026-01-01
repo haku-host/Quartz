@@ -6,65 +6,65 @@
       <description>Последние 10 заметок on 🚀 Haku Host Wiki</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>index</title>
+    <link>https://wiki.haku.host/pictures/</link>
+    <guid>https://wiki.haku.host/pictures/</guid>
+    <description>Это папка с картинками, тут особо не на что смотреть :).</description>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
+  </item><item>
     <title>Список игр</title>
     <link>https://wiki.haku.host/service/gamelist</link>
     <guid>https://wiki.haku.host/service/gamelist</guid>
     <description>Перечень игр, доступных к установке в тарифах "Другие игры" и замечания к их установке.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
     <title>Об услугах</title>
     <link>https://wiki.haku.host/service/</link>
     <guid>https://wiki.haku.host/service/</guid>
     <description>Статьи о предоставляемых услугах.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
     <title>Платежи</title>
     <link>https://wiki.haku.host/service/payment</link>
     <guid>https://wiki.haku.host/service/payment</guid>
     <description>Описания комиссии.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
     <title>Немного о тарифах</title>
     <link>https://wiki.haku.host/service/plans</link>
     <guid>https://wiki.haku.host/service/plans</guid>
     <description>Ценаобразование Цены могут быть несколько выше и немного ниже, в зависимости от конкретной игры или сервиса Xeon 200 рублей/месяц за блок 1 vcpu / 4 гб ОЗУ / 32 ГБ ПЗУ / 1 БД MySQL Количество ...</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
     <title>Партнёрская программа</title>
     <link>https://wiki.haku.host/service/ref</link>
     <guid>https://wiki.haku.host/service/ref</guid>
     <description>Приводи друзей и зарабатывай!.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
     <title>Список сервисов</title>
     <link>https://wiki.haku.host/service/servicelist</link>
     <guid>https://wiki.haku.host/service/servicelist</guid>
     <description>Перечень сервисов, доступных к установке в тарифах "Сервисы" и замечания к их установке.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
     <title>Характеристики</title>
     <link>https://wiki.haku.host/service/specs</link>
     <guid>https://wiki.haku.host/service/specs</guid>
     <description>Локации, машины.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://wiki.haku.host/pictures/</link>
-    <guid>https://wiki.haku.host/pictures/</guid>
-    <description>Это папка с картинками, тут особо не на что смотреть :).</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <title>Туториалы</title>
+    <link>https://wiki.haku.host/guides/</link>
+    <guid>https://wiki.haku.host/guides/</guid>
+    <description>Гайды инструкции.</description>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item><item>
-    <title>Выбор Java</title>
-    <link>https://wiki.haku.host/features/java</link>
-    <guid>https://wiki.haku.host/features/java</guid>
-    <description>Выбор В панели сервера в пункте “Запуск” доступен выбор разных сред Java Производительность Рекомендованная среда для ваших серверов, обеспечивает небольшой прирост производительности, ...</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
-  </item><item>
-    <title>Почему мы?</title>
-    <link>https://wiki.haku.host/features/why-us</link>
-    <guid>https://wiki.haku.host/features/why-us</guid>
-    <description>Уникальные решения Оптимизированная среда Проводя множество тестов мы выявляли даже самые малые аспекты, которые помогут ускорить ваш сервер. В нашей панели доступна наша среда, которая позволит вашему серверу работать максимально быстро без геймплейных урезаний.</description>
-    <pubDate>Mon, 24 Mar 2025 18:35:04 GMT</pubDate>
+    <title>Панель Pterodactyl</title>
+    <link>https://wiki.haku.host/guides/pterodactyl</link>
+    <guid>https://wiki.haku.host/guides/pterodactyl</guid>
+    <description>Что такое Pterodactyl Pterodactyl - это панель управления, которая используется у нас во всех тарифах, кроме хостинга веб сайтов (не сервисов). Приобрести сервер Процесс приобретения сервера подробно описан в статье Начало использования Главная страница На главной странице доступен список серверов Управление сервером После перехода на страницу сервера вам будут доступны следующие разделы.</description>
+    <pubDate>Thu, 01 Jan 2026 19:51:49 GMT</pubDate>
   </item>
     </channel>
   </rss>
