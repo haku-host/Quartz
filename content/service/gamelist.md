@@ -13,9 +13,11 @@ tags:
 Эти игры были протестированы и работали хорошо:
 - Factorio: Vanilla
 - Garry's Mod
+- Mindustry
 - Project Zomboid
 - Satisfactory
 - SuperTuxKart
+- Squad
 - Terraria: Vanilla
 
 А также:  
@@ -31,7 +33,6 @@ tags:
 - Counter Strike 2
 - Counter Strike: Global Offensive
 - Don't starve together
-- Escape from Tarkov: SPT (скрыт по причине поломки после обновления)
 - Euro Truck Simulator 2
 - Factorio: ModUpdate
 - GTA: alt:V
@@ -39,11 +40,9 @@ tags:
 - GTA: Rage.MP
 - Insurgency
 - Left 4 Dead 2
-- Mindustry
 - RDR2: RedM
 - Rust
 - SCP: Secret Labarotory 
-- Squad (скрыт по причине поломки после обновления)
 - Faster Than Light: Tachyon
 - Team Fortress 2
 - Terraria: Tmodloader
