@@ -250,11 +250,14 @@ async function main() {
     const pathname = decode(url.pathname, where)
     const basePath = decode(site.pathname, "quartz.config.yaml")
     if (pathname === null || basePath === null) return null
-    if (!pathname.startsWith(basePath)) {
+    // A project site's /Quartz and /Quartz/ both identify its index page.
+    // Match the whole base path so /Quartz-other cannot pass this check.
+    const isSiteRoot = pathname === basePath.replace(/\/$/, "")
+    if (!isSiteRoot && !pathname.startsWith(basePath)) {
       fail(where, `URL is outside the configured site path: ${raw}`)
       return null
     }
-    const relative = pathname.slice(basePath.length)
+    const relative = isSiteRoot ? "" : pathname.slice(basePath.length)
     const candidates =
       relative.endsWith("/") || !relative
         ? [`${relative}index.html`]

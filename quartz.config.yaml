@@ -71,6 +71,20 @@ plugins:
     layout:
       position: right
       priority: 30
+  - source: "@quartz-community/graph"
+    enabled: true
+    options:
+      localGraph:
+        depth: 1
+        drag: true
+        zoom: true
+      globalGraph:
+        depth: -1
+        drag: true
+        zoom: true
+    layout:
+      position: right
+      priority: 10
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
@@ -193,10 +207,6 @@ layout:
     folder:
       exclude:
         - reader-mode
-      positions:
-        right: []
     tag:
       exclude:
         - reader-mode
-      positions:
-        right: []

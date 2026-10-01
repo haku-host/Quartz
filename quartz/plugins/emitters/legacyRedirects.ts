@@ -12,7 +12,7 @@ export const LegacyRedirects: QuartzEmitterPlugin = () => ({
     for (const [oldSlug, targetSlug] of Object.entries(redirects)) {
       const target = encodeURI(resolveRelative(oldSlug as FullSlug, targetSlug as FullSlug))
       const canonical = new URL(
-        encodeURI(simplifySlug(targetSlug as FullSlug)),
+        encodeURI(simplifySlug(targetSlug as FullSlug).replace(/^\/+/, "")),
         `https://${cfg.configuration.baseUrl}/`,
       ).href
       const destination = path.join(argv.output, `${oldSlug}.html`) as FilePath

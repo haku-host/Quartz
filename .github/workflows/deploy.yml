@@ -33,11 +33,6 @@ jobs:
       - run: npm test
       - run: npx quartz build
       - run: npm run check:wiki
-      - name: Save the build for GitHub Pages
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/v4'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
       - name: Publish public folder for the wiki server
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/v4'
         run: |
@@ -54,12 +49,28 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: npx quartz plugin install --from-config
+      - name: Build the GitHub Pages mirror
+        run: npx quartz build --output public-pages
+        env:
+          HAKU_WIKI_BASE_URL: haku-host.github.io/Quartz
+      - name: Save the mirror for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public-pages
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

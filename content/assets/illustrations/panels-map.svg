@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="702" viewBox="0 0 640 702" role="img" aria-labelledby="panels-map-title panels-map-desc" xml:lang="ru">
+<title id="panels-map-title">Как выбрать панель Haku Host</title>
+<desc id="panels-map-desc">Откройте карточку услуги в биллинге. Кнопка «Открыть панель» ведёт в Pterodactyl для игр и приложений или HakuStack для VDS. HakuStack использует аккаунт Haku Host, Pterodactyl — отдельный аккаунт.</desc>
+<defs><style>
+text { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #16213b; }
+.canvas { fill: #fafbff; }
+.outline { fill: none; stroke: #d9e2f3; stroke-width: 1.5; }
+.card { fill: #fff; stroke: #d9e2f3; stroke-width: 1.5; }
+.blue-card { fill: #edf3ff; stroke: #c9dafa; stroke-width: 1.5; }
+.green-card { fill: #eaf7f2; stroke: #c6e5d9; stroke-width: 1.5; }
+.blue-fill { fill: #245bd6; }
+.green-fill { fill: #226e63; }
+.blue-ink { fill: #245bd6; }
+.green-ink { fill: #226e63; }
+.muted { fill: #53647e; }
+.white { fill: #fff; }
+.tiny { font-size: 18px; }
+.body { font-size: 21px; }
+.heading { font-size: 28px; font-weight: 720; letter-spacing: -0.6px; }
+.label { font-size: 24px; font-weight: 700; letter-spacing: -0.3px; }
+.blue-line { fill: none; stroke: #245bd6; stroke-width: 2.7; stroke-linecap: round; stroke-linejoin: round; }
+.green-line { fill: none; stroke: #226e63; stroke-width: 2.7; stroke-linecap: round; stroke-linejoin: round; }
+.route { fill: none; stroke: #8399ba; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.route-fill { fill: #8399ba; }
+.guide { fill: none; stroke: #d9e2f3; stroke-width: 1.5; stroke-dasharray: 3 7; }
+.soft-blue { fill: #d5e3ff; }
+.soft-green { fill: #c5e9dc; }
+.quiet { fill: #e8eef9; }
+@media (prefers-color-scheme: dark) {
+  text { fill: #f3f6ff; }
+  .canvas { fill: #0d1426; }
+  .outline { stroke: #28354f; }
+  .card { fill: #141f35; stroke: #30405c; }
+  .blue-card { fill: #182c4d; stroke: #304c79; }
+  .green-card { fill: #143832; stroke: #326359; }
+  .blue-ink { fill: #91bbff; }
+  .green-ink { fill: #8bd7c1; }
+  .blue-fill { fill: #245bd6; }
+  .green-fill { fill: #226e63; }
+  .muted { fill: #b4c2da; }
+  .white { fill: #fff; }
+  .blue-line { stroke: #91bbff; }
+  .green-line { stroke: #8bd7c1; }
+  .route { stroke: #7c94b7; }
+  .route-fill { fill: #7c94b7; }
+  .guide { stroke: #30405c; }
+  .soft-blue { fill: #294572; }
+  .soft-green { fill: #29584b; }
+  .quiet { fill: #24324d; }
+}
+</style>
+<marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="userSpaceOnUse">
+  <path d="M1 1 L7 4.5 L1 8" class="route"/>
+</marker>
+<symbol id="server" viewBox="0 0 80 80">
+  <rect x="9" y="9" width="62" height="26" rx="7" class="blue-card"/>
+  <rect x="9" y="43" width="62" height="26" rx="7" class="blue-card"/>
+  <path d="M36 22 H58 M36 56 H58" class="blue-line"/>
+  <circle cx="23" cy="22" r="4" class="blue-fill"/><circle cx="23" cy="56" r="4" class="blue-fill"/>
+</symbol>
+<symbol id="system" viewBox="0 0 80 80">
+  <rect x="6" y="9" width="68" height="49" rx="8" class="green-card"/>
+  <path d="M6 23 H74 M25 34 L32 41 L25 48 M40 48 H54 M32 58 V70 M48 58 V70 M24 71 H56" class="green-line"/>
+  <circle cx="15" cy="16" r="2" class="green-fill"/><circle cx="23" cy="16" r="2" class="green-fill"/>
+</symbol>
+<symbol id="cube" viewBox="0 0 80 80">
+  <path d="M40 7 L72 24 V57 L40 75 L8 57 V24Z" class="blue-card"/>
+  <path d="M8 24 L40 42 L72 24 M40 42 V75 M24 16 L56 33 M24 33 L56 16" class="blue-line"/>
+  <path d="M18 43 L28 49 V61 L18 55Z" class="soft-blue"/>
+  <path d="M50 48 L63 41 V53 L50 60Z" class="soft-blue"/>
+</symbol>
+<symbol id="wallet" viewBox="0 0 80 80">
+  <path d="M12 22 L56 9 V26 H12Z" class="soft-blue"/>
+  <rect x="10" y="23" width="60" height="44" rx="9" class="blue-card"/>
+  <path d="M53 37 H72 V54 H53 A8 8 0 0 1 53 37Z" class="blue-card"/>
+  <circle cx="58" cy="45.5" r="3" class="blue-fill"/>
+  <path d="M22 37 H37 M22 46 H34" class="blue-line"/>
+</symbol>
+<symbol id="folder" viewBox="0 0 80 80">
+  <path d="M8 24 Q8 17 15 17 H31 L39 26 H65 Q72 26 72 33 V61 Q72 68 65 68 H15 Q8 68 8 61Z" class="green-card"/>
+  <path d="M10 33 H70" class="green-line"/>
+  <path d="M27 48 L36 57 L53 40" class="green-line"/>
+</symbol>
+<symbol id="database" viewBox="0 0 80 80">
+  <path d="M15 21 V60 C15 75 65 75 65 60 V21" class="green-card"/>
+  <ellipse cx="40" cy="21" rx="25" ry="11" class="green-card"/>
+  <path d="M15 40 C15 55 65 55 65 40 M15 58 C15 73 65 73 65 58" class="green-line"/>
+</symbol>
+<symbol id="check" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="29" class="green-card"/>
+  <path d="M25 40 L36 51 L56 29" class="green-line"/>
+</symbol>
+</defs>
+<rect x="1" y="1" width="638" height="700" rx="26" class="canvas"/>
+<rect x="1" y="1" width="638" height="700" rx="26" class="outline"/>
+<g aria-hidden="true">
+<text x="32" y="48" class="heading">Услуга подскажет нужную панель</text><text x="32" y="82" class="muted" style="font-size:20px">Начните с карточки услуги в личном кабинете</text><rect x="32" y="110" width="576" height="152" rx="20" class="card"/><use href="#wallet" x="50" y="127" width="74" height="74"/><text x="142" y="151" class="label" style="font-size:27px">Биллинг Haku Host</text><text x="142" y="186" class="muted" style="font-size:21px">Заказ · оплата · продление</text><rect x="142" y="207" width="218" height="32" rx="16" class="blue-fill"/><text x="251.0" y="229" class="white" style="font-size:18px" font-weight="650" text-anchor="middle">«Открыть панель»</text><path d="M320 262 V291 H170 V320" class="route" marker-end="url(#arrow)"/><path d="M320 291 H470 V320" class="route" marker-end="url(#arrow)"/><circle cx="320" cy="291" r="4" class="route-fill"/><rect x="32" y="326" width="276" height="230" rx="20" class="blue-card"/><rect x="332" y="326" width="276" height="230" rx="20" class="green-card"/><text x="56" y="369" class="label" style="font-size:28px">Pterodactyl</text><text x="356" y="369" class="label" style="font-size:28px">HakuStack</text><use href="#cube" x="56" y="387" width="67" height="67"/><use href="#system" x="356" y="387" width="67" height="67"/><text x="56" y="481" class="body" style="font-size:21px">Игры и приложения</text><text x="56" y="519" class="muted" style="font-size:18px">Консоль · файлы · запуск</text><text x="356" y="481" class="label">VDS / Linux</text><text x="356" y="519" class="muted" style="font-size:20px">ОС · SSH · службы</text><rect x="32" y="581" width="576" height="96" rx="20" class="card"/><text x="54" y="617" class="body" style="font-size:21px">HakuStack — аккаунт Haku Host</text><text x="54" y="651" class="muted" style="font-size:21px">Pterodactyl — отдельный аккаунт</text>
+</g>
+</svg>
