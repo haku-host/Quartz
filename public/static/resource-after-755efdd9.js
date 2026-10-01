@@ -1,0 +1,1 @@
+(function(){window.matchMedia("(max-width: 800px)").addEventListener("change",({matches:e})=>{document.documentElement.classList.remove("mobile-no-scroll"),document.querySelectorAll(".explorer").forEach(t=>{t.classList.toggle("collapsed",e),t.setAttribute("aria-expanded",String(!e))})})})();

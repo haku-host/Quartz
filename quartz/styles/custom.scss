@@ -1,3 +1,68 @@
-@use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Haku Host documentation: readable steps and mobile navigation.
+body {
+  line-height: 1.65;
+}
+
+.page-title {
+  font-size: 1.45rem;
+  letter-spacing: -0.035em;
+}
+
+article {
+  & > h2 {
+    margin-top: 2.3rem;
+  }
+
+  li + li {
+    margin-top: 0.4rem;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  th {
+    background: var(--highlight);
+  }
+
+  td,
+  th {
+    padding: 0.7rem 0.85rem;
+    vertical-align: top;
+  }
+
+  a {
+    text-underline-offset: 0.18em;
+  }
+}
+
+.content-meta {
+  color: var(--gray);
+}
+
+.sidebar.left .page-title a {
+  color: var(--dark);
+}
+
+footer {
+  font-size: 0.85rem;
+}
+
+@media all and (max-width: 800px) {
+  // The viewport-wide menu is anchored inside Quartz's 1rem page margin.
+  .explorer .explorer-content {
+    left: -1rem;
+  }
+
+  article table {
+    font-size: 0.88rem;
+  }
+
+  article td,
+  article th {
+    padding: 0.55rem;
+  }
+}
