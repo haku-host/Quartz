@@ -158,7 +158,7 @@ def panels():
     body += icon("wallet", 50, 127, 74)
     body += text(142, 151, "Биллинг Haku Host", "label", size=27)
     body += text(142, 186, "Заказ · оплата · продление", "muted", size=21)
-    body += pill(142, 207, "«Открыть панель»", 218)
+    body += pill(142, 207, "«Перейти в панель»", 240)
     body += arrow("M320 262 V291 H170 V320")
     body += arrow("M320 291 H470 V320")
     body += '<circle cx="320" cy="291" r="4" class="route-fill"/>'
@@ -173,9 +173,9 @@ def panels():
     body += text(356, 481, "VDS / Linux", "label")
     body += text(356, 519, "ОС · SSH · службы", "muted", size=20)
     body += rect(32, 581, 576, 96)
-    body += text(54, 617, "HakuStack — аккаунт Haku Host", "body", size=21)
-    body += text(54, 651, "Pterodactyl — отдельный аккаунт", "muted", size=21)
-    return svg("panels-map", "Как выбрать панель Haku Host", "Откройте карточку услуги в биллинге. Кнопка «Открыть панель» ведёт в Pterodactyl для игр и приложений или HakuStack для VDS. HakuStack использует аккаунт Haku Host, Pterodactyl — отдельный аккаунт.", 702, body)
+    body += text(54, 617, "Вход в панели — через Haku Billing", "body", size=21)
+    body += text(54, 651, "Для SFTP нужен пароль Pterodactyl", "muted", size=21)
+    return svg("panels-map", "Как выбрать панель Haku Host", "Откройте карточку услуги в биллинге. Кнопка «Перейти в панель» выполняет вход в Pterodactyl для игр и приложений или HakuStack для VDS. Существующий аккаунт Pterodactyl может потребовать привязки. Для SFTP нужен пароль аккаунта Pterodactyl.", 702, body)
 
 
 def service_choice():
