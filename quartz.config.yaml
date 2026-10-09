@@ -15,30 +15,30 @@ configuration:
     fontOrigin: local
     cdnCaching: true
     typography:
-      header: system-ui
-      body: system-ui
+      header: Onest
+      body: Onest
       code: monospace
     colors:
       lightMode:
-        light: "#fafbff"
-        lightgray: "#e0e6f1"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#16213b"
-        secondary: "#245bd6"
-        tertiary: "#226e63"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f4f7fc"
+        lightgray: "#dce3ef"
+        gray: "#5b6980"
+        darkgray: "#374357"
+        dark: "#101828"
+        secondary: "#0059d6"
+        tertiary: "#004bb5"
+        highlight: rgba(0, 111, 255, 0.08)
+        textHighlight: "#ffcd2755"
       darkMode:
-        light: "#0d1426"
-        lightgray: "#28354f"
-        gray: "#8695b1"
-        darkgray: "#d6deee"
-        dark: "#f3f6ff"
-        secondary: "#91bbff"
-        tertiary: "#8bd7c1"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#04060b"
+        lightgray: "#252c3b"
+        gray: "#9aa6bc"
+        darkgray: "#c9d1e0"
+        dark: "#ffffff"
+        secondary: "#7cb8ff"
+        tertiary: "#b0d4ff"
+        highlight: rgba(0, 111, 255, 0.12)
+        textHighlight: "#ffcd2738"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
