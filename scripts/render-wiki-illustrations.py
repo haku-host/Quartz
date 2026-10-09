@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the five original, self-contained Haku wiki SVG diagrams.
+"""Generate the original, self-contained Haku wiki SVG diagrams.
 
 Run from any directory with Python 3. No network or third-party packages needed.
 Only files under content/assets/illustrations are written.
@@ -148,8 +148,8 @@ def svg(name, title, description, height, body):
 '''
 
 
-def header(title, subtitle):
-    return text(32, 48, title, "heading") + text(32, 82, subtitle, "muted", size=20)
+def header(title, subtitle, subtitle_size=20):
+    return text(32, 48, title, "heading") + text(32, 82, subtitle, "muted", size=subtitle_size)
 
 
 def panels():
@@ -246,6 +246,41 @@ def dns():
     return svg("minecraft-dns", "Как A и SRV связывают домен с Minecraft-сервером", "Java-клиент получает SRV-запись для play.example.com: цель node.example.com и порт услуги. A-запись цели возвращает IPv4. Клиент подключается к этому IP и порту из SRV. Домены в схеме приведены как пример.", 738, body)
 
 
+def custom_domain():
+    body = header("Домен, DNS и сервер", "Три места, три разные задачи", subtitle_size=24)
+    roles = [
+        (112, 200, "Регистратор", "blue"),
+        (336, 256, "DNS-провайдер", "blue"),
+        (616, 190, "Сервер Haku", "green"),
+    ]
+    for i, (y, height, title, color) in enumerate(roles, 1):
+        body += rect(32, y, 576, height, f"{color}-card")
+        body += f'<circle cx="70" cy="{y+40}" r="20" class="{color}-fill"/>'
+        body += text(70, y+48, str(i), "white", size=24, weight=700, anchor="middle")
+        body += text(109, y+48, title, "label", size=28)
+
+    body += text(56, 206, "Домен example.com — здесь.", "body", size=24)
+    body += text(56, 249, "Здесь указывают NS-серверы", "body", size=24)
+    body += text(56, 282, "выбранного DNS-провайдера.", "body", size=24)
+
+    body += pill(56, 418, "A", 48, size=24)
+    body += text(128, 442, "Имя → IP сервера", "body", size=24)
+    body += pill(56, 467, "SRV", 62, size=24)
+    body += text(128, 491, "Узел + порт для", "body", size=24)
+    body += text(128, 524, "Minecraft Java", "body", size=24)
+    body += text(56, 565, "DNS-записи создают здесь.", "muted", size=24)
+
+    body += icon("server", 514, 637, 64)
+    body += text(56, 717, "IP и порт берём из панели.", "body", size=24)
+    body += text(56, 764, "Здесь работает сайт или игра.", "body", size=24)
+
+    body += rect(32, 830, 576, 148)
+    body += text(56, 871, "Если выбран Cloudflare", "label", size=26)
+    body += text(56, 911, "Меняется DNS-провайдер.", "body", size=24)
+    body += text(56, 949, "Домен остаётся у регистратора.", "muted", size=24)
+    return svg("custom-domain", "Роли регистратора, DNS-провайдера и сервера Haku", "У регистратора находится домен example.com и указываются NS выбранного DNS-провайдера. У DNS-провайдера A-запись связывает имя с IP, а SRV-запись для Minecraft Java задаёт узел и порт. IP и порт сервера Haku берут из панели; на сервере работает сайт или игра. При выборе Cloudflare меняется DNS-провайдер, а домен остаётся у регистратора. Карточки показывают места настройки, а не путь сетевого трафика.", 1004, body)
+
+
 def backups():
     body = header("Резервная копия — вне VDS", "Проверка восстановления входит в план")
     body += rect(32, 115, 264, 219, "blue-card")
@@ -281,6 +316,7 @@ def main():
         "service-choice.svg": service_choice(),
         "migration-flow.svg": migration(),
         "minecraft-dns.svg": dns(),
+        "custom-domain.svg": custom_domain(),
         "vds-backups.svg": backups(),
     }
     for name, content in diagrams.items():

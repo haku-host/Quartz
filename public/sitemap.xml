@@ -86,6 +86,9 @@
     <loc>https://wiki.haku.host/help/connection</loc>
     <lastmod>2026-10-09T00:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://wiki.haku.host/help/custom-domain</loc>
+    <lastmod>2026-10-09T00:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://wiki.haku.host/help/</loc>
     <lastmod>2026-10-09T00:00:00.000Z</lastmod>
   </url><url>
@@ -99,7 +102,7 @@
     <lastmod>2026-10-01T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.haku.host/minecraft/domains</loc>
-    <lastmod>2026-10-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-10-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.haku.host/minecraft/essentials</loc>
     <lastmod>2026-10-01T00:00:00.000Z</lastmod>
@@ -147,7 +150,7 @@
     <lastmod>2026-10-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.haku.host/pterodactyl/network</loc>
-    <lastmod>2026-10-01T00:00:00.000Z</lastmod>
+    <lastmod>2026-10-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.haku.host/pterodactyl/reinstall</loc>
     <lastmod>2026-10-01T00:00:00.000Z</lastmod>
@@ -183,5 +186,5 @@
     <lastmod>2026-10-09T00:00:00.000Z</lastmod>
   </url><url>
     <loc>https://wiki.haku.host/tags/</loc>
-    <lastmod>2026-10-09T14:28:40.563Z</lastmod>
+    <lastmod>2026-10-09T14:36:01.539Z</lastmod>
   </url></urlset>

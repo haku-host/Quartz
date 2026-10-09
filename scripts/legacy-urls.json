@@ -12,7 +12,7 @@
   "guides/index": "start/index",
   "guides/begin": "start/index",
   "guides/pterodactyl": "pterodactyl/index",
-  "guides/domain": "billing/domains",
+  "guides/domain": "help/custom-domain",
   "service/index": "services/index",
   "service/plans": "services/resources",
   "service/specs": "services/resources",
